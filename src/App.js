@@ -10,7 +10,6 @@ function App() {
     <Fragment>
       <Header />
       {auth ? <UserProfile /> : <Auth />}
-      {/* <UserProfile /> */}
       <Counter />
     </Fragment>
   );
